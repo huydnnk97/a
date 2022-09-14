@@ -1,0 +1,18 @@
+.SignUp{
+
+    width: 700px;
+    height: 800px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.smallform{
+    width: 600px;
+    align-self: center;
+    display: flex;
+}
+.inside{
+    width: 400px;
+    align-self: flex-end;
+}
