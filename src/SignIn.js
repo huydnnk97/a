@@ -41,6 +41,7 @@ function SignIn() {
 
         if (password === doc.data().password) {
           setCurrentUser(doc.data().email)
+          console.log(doc.data().email)
           navigate('/')
         }
         else console.log("fail")
